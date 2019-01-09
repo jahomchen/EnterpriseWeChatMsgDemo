@@ -1,0 +1,10 @@
+c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\ConsoleTest\obj\Debug\ConsoleTest.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\ConsoleTest\bin\Debug\ConsoleTest.exe
+c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\ConsoleTest\bin\Debug\ConsoleTest.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\ConsoleTest\bin\Debug\EnterpriseWeChatMsgDemo.dll
+c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\ConsoleTest\bin\Debug\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\ConsoleTest\bin\Debug\EnterpriseWeChatMsgDemo.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\ConsoleTest\bin\Debug\Newtonsoft.Json.xml
+c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\ConsoleTest\obj\Debug\ConsoleTest.exe
+c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\ConsoleTest\obj\Debug\ConsoleTest.pdb
