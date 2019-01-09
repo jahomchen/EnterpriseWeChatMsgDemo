@@ -1,6 +1,0 @@
-c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\EnterpriseWeChatMsgDemo\bin\Debug\EnterpriseWeChatMsgDemo.dll
-c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\EnterpriseWeChatMsgDemo\bin\Debug\EnterpriseWeChatMsgDemo.pdb
-c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\EnterpriseWeChatMsgDemo\bin\Debug\Newtonsoft.Json.dll
-c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\EnterpriseWeChatMsgDemo\bin\Debug\Newtonsoft.Json.xml
-c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\EnterpriseWeChatMsgDemo\obj\Debug\EnterpriseWeChatMsgDemo.dll
-c:\users\administrator\documents\visual studio 2015\Projects\EnterpriseWeChatMsgDemo\EnterpriseWeChatMsgDemo\obj\Debug\EnterpriseWeChatMsgDemo.pdb
