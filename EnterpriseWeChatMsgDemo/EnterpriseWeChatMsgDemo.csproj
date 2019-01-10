@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="CorpSendBase.cs" />
     <Compile Include="CorpSendText.cs" />
+    <Compile Include="EnterpriseDingtalkHelper.cs" />
     <Compile Include="EnterpriseWeChatHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
