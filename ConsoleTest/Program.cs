@@ -15,7 +15,12 @@ namespace ConsoleTest
 				+ DateTime.Now.AddDays(5) +
 				"之前完成测试,请点击www.baidu.com开始答题。";
 
-			EnterpriseWeChatHelper.SendText("OuDaAoTuManDeXiaoGuaiShou", templateMsg);
+
+			//EnterpriseWeChatHelper.SendText("@all", templateMsg);
+
+
+
+			DingTalkMsgDemo.DingTalkMsgHelper.SendText("dingp0xzn7wzpu0vsegd", "FffA9Q9KPQLRWtH8860Tt4T2kTErfPBFyXfTlsmEkqTCkXlXRsdi1nB-_WhPoQPS", string.Join("|", DingTalkMsgDemo.DingTalkMsgHelper.GetUserInfoList("dingp0xzn7wzpu0vsegd", "FffA9Q9KPQLRWtH8860Tt4T2kTErfPBFyXfTlsmEkqTCkXlXRsdi1nB-_WhPoQPS")), "216882406", "测评中心测试", templateMsg);
 
 			Console.ReadKey();
 		}
