@@ -54,10 +54,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DingTalkMsgDemo\DingTalkMsgDemo.csproj">
-      <Project>{c37d7075-c0d8-4784-8f91-36e48ec2d0bd}</Project>
-      <Name>DingTalkMsgDemo</Name>
-    </ProjectReference>
     <ProjectReference Include="..\EnterpriseWeChatMsgDemo\EnterpriseWeChatMsgDemo.csproj">
       <Project>{dee551ef-0830-41a3-a4ea-4c89686f59ca}</Project>
       <Name>EnterpriseWeChatMsgDemo</Name>

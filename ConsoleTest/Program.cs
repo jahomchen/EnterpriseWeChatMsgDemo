@@ -11,16 +11,21 @@ namespace ConsoleTest
 	{
 		static void Main(string[] args)
 		{
-			var templateMsg = "测评中心邀请信息<br/><br/>你好，<br/>请于"
-				+ DateTime.Now.AddDays(5) +
-				"之前完成测试,请点击www.baidu.com开始答题。";
-
-
-			//EnterpriseWeChatHelper.SendText("@all", templateMsg);
+			//EnterpriseWeChatMsg.SendText(EnterpriseWeChatMsg.corpid, EnterpriseWeChatMsg.corpsecret, EnterpriseWeChatMsg.agentid, "@all", "测试消息");
 
 
 
-			DingTalkMsgDemo.DingTalkMsgHelper.SendText("dingp0xzn7wzpu0vsegd", "FffA9Q9KPQLRWtH8860Tt4T2kTErfPBFyXfTlsmEkqTCkXlXRsdi1nB-_WhPoQPS", string.Join("|", DingTalkMsgDemo.DingTalkMsgHelper.GetUserInfoList("dingp0xzn7wzpu0vsegd", "FffA9Q9KPQLRWtH8860Tt4T2kTErfPBFyXfTlsmEkqTCkXlXRsdi1nB-_WhPoQPS")), "216882406", "测评中心测试", templateMsg);
+
+			var userIds = new List<string>();
+			var depts = DingtalkMsg.GetDepartmentList(DingtalkMsg.AppKey, DingtalkMsg.AppSecret);
+			foreach (var dept in depts.Department)
+			{
+				var userRes = DingtalkMsg.GetDepartMentUserList(DingtalkMsg.AppKey, DingtalkMsg.AppSecret, dept.Id.ToString());
+				userIds.AddRange(userRes.UserIds);
+			}
+			DingtalkMsg.SendDingTalkText(DingtalkMsg.AppKey, DingtalkMsg.AppSecret, DingtalkMsg.agentid, string.Join("|", userIds), "钉钉测试");
+
+
 
 			Console.ReadKey();
 		}

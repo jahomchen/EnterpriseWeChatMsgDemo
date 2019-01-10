@@ -12,9 +12,6 @@ namespace EnterpriseWeChatMsgDemo
 	/// </summary>
 	class CorpSendBase
 	{
-
-		const string CorpSendBaseAgentID = "1000002";
-
 		/// <summary>
 		/// UserID列表（消息接收者，多个接收者用‘|’分隔）。特殊情况：指定为@all，则向关注该企业应用的全部成员发送
 		/// </summary>
@@ -39,12 +36,6 @@ namespace EnterpriseWeChatMsgDemo
 		/// 表示是否是保密消息，0表示否，1表示是，默认0
 		/// </summary>
 		[JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-		public string safe { get; set; }
-
-		public CorpSendBase()
-		{
-			agentid = CorpSendBaseAgentID;
-			safe = "0";
-		}
+		public string safe { get; set; } = "0";
 	}
 }

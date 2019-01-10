@@ -36,6 +36,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,10 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CorpSendBase.cs" />
-    <Compile Include="CorpSendText.cs" />
-    <Compile Include="EnterpriseDingtalkHelper.cs" />
-    <Compile Include="EnterpriseWeChatHelper.cs" />
+    <Compile Include="DingDing\DepartmentInfo.cs" />
+    <Compile Include="DingDing\UserInfo.cs" />
+    <Compile Include="WeChat\CorpSendBase.cs" />
+    <Compile Include="WeChat\CorpSendText.cs" />
+    <Compile Include="DingDing\DingtalkMsg.cs" />
+    <Compile Include="WeChat\EnterpriseWeChatMsg.cs" />
+    <Compile Include="HttpHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
